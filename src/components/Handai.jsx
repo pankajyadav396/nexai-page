@@ -22,7 +22,7 @@ const Handai = () => {
                                 />
                                 {handaiRoadmap.map((obj, index) => {
                                     return (
-                                        <div className={`${index == 5 ? "mb-0" : "mb-[60px]"} relative flex items-baseline gap-[10px]`}>
+                                        <div className={`${index == 5 ? "mb-0" : "mb-[40px] lg:mb-[60px]"} relative flex items-baseline gap-[10px]`}>
                                             <img src={dots} alt="dots" className='absolute md:left-[0px] min-[522px]:left-[-7px] top-[53%]' />
                                             <div className='flex flex-col ml-[40px]'>
                                                 <p className="text-white text-[19px] sm:text-[24px] md:text-[19px] lg:text-[24px] font-bold ff-recharge  max-w-[568px]">

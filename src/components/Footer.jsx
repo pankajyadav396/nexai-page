@@ -19,10 +19,10 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className='flex justify-between gap-16 max-sm:gap-[24px] xl:w-4/12 px-3 max-md:mt-8 max-sm:pl-3 max-md:pl-6'>
-                            <ul data-aos="fade-up" className='gap-5 flex flex-col'>
-                                <p className=' text-[18px] text-nowrap text-white ff-recharge font-bold'>
+                            <ul data-aos="fade-up" className='gap-3 sm:gap-5 flex flex-col'>
+                                <l1 className=' text-[18px] text-nowrap text-white ff-recharge font-bold'>
                                     Quick Links
-                                </p>
+                                </l1>
                                 <li>
                                     <a id='home' className='text-[#b6bbbb] ff-recharge max-sm:text-[14px] text-[16px] font-normal leading-normal hover:after:w-[100%] after:mx-auto after:right-[0px] after:items-center after:w-0 after:absolute after:bg-[#B6BBBB] after:h-[2px] cursor-pointer relative after:left-[0] after:bottom-[-2px] after:rounded-[15px] after:transition-all after:duration-300 after:ease-linear'>
                                         Home
@@ -43,10 +43,10 @@ const Footer = () => {
                                     About
                                 </a ></li>
                             </ul >
-                            <ul data-aos="fade-up" className='gap-5 flex flex-col'>
-                                <p className=' text-[18px] text-white ff-recharge font-bold'>
+                            <ul data-aos="fade-up" className='gap-3 sm:gap-5 flex flex-col'>
+                                <l1 className=' text-[18px] text-white ff-recharge font-bold'>
                                     Information's
-                                </p>
+                                </l1>
                                 <li>
                                     <a className='text-[#b6bbbb] ff-recharge max-sm:text-[14px] text-[16px] font-normal leading-normal hover:after:w-[100%] after:mx-auto after:right-[0px] after:items-center after:w-0 after:absolute after:bg-[#B6BBBB] after:h-[2px] cursor-pointer relative after:left-[0] after:bottom-[-2px] after:rounded-[15px] after:transition-all after:duration-300 after:ease-linear'>
                                         Contact
@@ -61,7 +61,7 @@ const Footer = () => {
                         </div >
                     </div >
                 </div >
-                <p className='text-[#b6bbbb] my-[20px] mx-auto text-center ff-recharge text-[16px] font-normal leading-normal '>
+                <p className='text-[#b6bbbb] py-[20px] mx-auto text-center ff-recharge text-[16px] font-normal leading-normal '>
                     @Copyright.nexai
                 </p>
             </div >
