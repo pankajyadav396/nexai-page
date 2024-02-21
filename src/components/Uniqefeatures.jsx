@@ -15,7 +15,7 @@ const UniqeFeatures = () => {
                             {uniqeFeaturesList.map((obj, index) => {
                                 return (
                                     <div key={index} className={`${index % 2 !== 0 ? 'justify-end' : ''} flex`}>
-                                        <div className={`bg-white sm:max-w-[350px] max-w-[300px] sm:min-h-[400px] min-h-[280px] rounded-[16px] sm:p-[30px_24px] px-[18px] py-5 mb-4 ${index !== 0 ? ' min-[820px]:mt-[-115px]' : 'mt-5'} `}>
+                                        <div className={`bg-white sm:max-w-[350px] max-w-[300px] sm:min-h-[400px] min-h-[280px] rounded-[16px] sm:p-[30px_24px] px-[18px] py-5 mb-4 hover:scale-95 duration-300 hover:shadow-2xl ${index !== 0 ? ' min-[820px]:mt-[-115px]' : 'mt-5'} `}>
                                             <span className='mb-5'> {obj.featureIcon} </span>
                                             <h5 className='ff-recharge text-[15px] sm:text-[20px] text-black mx-w-[350px] mt-4 mb-3'>
                                                 {obj.title}</h5>
