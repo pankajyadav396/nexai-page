@@ -10,7 +10,9 @@ const Getstarted = () => {
                         <span className="text-white">Ready to get started
                         </span> Talk to us Today
                     </h1>
-                    <Commonbtn text="Get Started" />
+                    <span data-aos="fade-up">
+                        <Commonbtn text="Get Started" />
+                    </span>
                 </div>
             </div>
         </>
