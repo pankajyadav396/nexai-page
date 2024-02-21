@@ -19,7 +19,7 @@ const Homeassistant = () => {
                                 <p data-aos="fade-up" className='text-lightGrey font-normal text-[14px] sm:text-[16px] md:text-[14px] lg:text-[16px] mb-[6px] ff-["poppins"]'>Nexai offers an incredibly futuristic experience. It can take the initiative to ask about your day, schedule meetings, provide <br className=' max-xl:hidden' /> timely reminders</p>
                                 <p data-aos="fade-up" className='text-lightGrey font-normal text-[14px] sm:text-[16px] md:text-[14px] lg:text-[16px]  mb-[40px] ff-["poppins"]'>assist with cooking by suggesting ingredients, track your fitness and nutrition goals, and even handle bill payments.</p>
                                 <div data-aos="fade-up">
-                                   <Commonbtn data-aos="fade-up" text="Learn More" />
+                                    <Commonbtn className="hover:shadow-[inset_200px_0_0_0_black]" data-aos="fade-up" text="Learn More" />
                                 </div>
                             </div>
                         </div>

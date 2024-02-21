@@ -11,7 +11,7 @@ const Getstarted = () => {
                         </span> Talk to us Today
                     </h1>
                     <span data-aos="fade-up">
-                        <Commonbtn text="Get Started" />
+                        <Commonbtn className="hover:shadow-[inset_200px_0_0_0_black]" text="Get Started" />
                     </span>
                 </div>
             </div>

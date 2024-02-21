@@ -13,7 +13,7 @@ const Nexaigif = () => {
                                 <p data-aos="fade-up" className='text-lightGrey max-md:text-center md:max-w-[480px] font-normal text-[14px] sm:text-[16px] md:text-[14px] lg:text-[16px] mb-[6px] ff-["poppins"]'>Beyond its convenience, Nexai revolutionizes the way you interact with your home environment. It enhances productivity, efficiency, and overall well-being. From managing your schedules to transforming the way you experience smart living, Nexai opens up a world of possibilities.</p>
                                 <p data-aos="fade-up" className='text-lightGrey max-md:text-center md:max-w-[480px] font-normal text-[14px] sm:text-[16px] md:text-[14px] lg:text-[16px] mb-[40px] ff-["poppins"]'>Nexai's software can be installed on all your smart devices, including smartphones, computers, smart TVs, and kitchen appliances. It acts as a centralized control hub, allowing you to manage and interact with all your devices seamlessly. Whether it's adjusting the temperature, turning on appliances, or even accessing files on your home computer from anywhere, Nexai empowers you with effortless control.</p>
                                 <div data-aos="fade-up" className=' max-md:flex items-center justify-center'>
-                                    <Commonbtn text="Learn More" />
+                                    <Commonbtn className="hover:shadow-[inset_200px_0_0_0_black]" text="Learn More" />
                                 </div>
                             </div>
                         </div>

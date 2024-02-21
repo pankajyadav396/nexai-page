@@ -41,7 +41,7 @@ const Navbar = () => {
               </li>
             </ul>
             <ul data-aos="zoom-in" data-aos-delay="3000" className="absolute 2xl:right-[10%] right-8">
-              <li><Commonbtn text="Sign Up" /></li>
+              <li><Commonbtn className="hover:shadow-[inset_200px_0_0_0_black]" text="Sign Up" /></li>
             </ul>
             <label className='sm:hidden ml-5' onClick={show}>
               {nav ? (

@@ -18,7 +18,7 @@ const Header = () => {
               odio.
             </p>
             <div data-aos="fade-up" data-aos-delay="3000" className='block'>
-              <Commonbtn
+              <Commonbtn className="hover:shadow-[inset_200px_0_0_0_black]"
                 text="Know More"
               />
             </div>
