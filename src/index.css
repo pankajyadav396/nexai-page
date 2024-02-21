@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .mobileView {
+        @apply max-sm:flex-col z-50 max-sm:bg-[#000000f3] max-sm:z-10 max-sm:w-full max-sm:h-screen max-sm:justify-center max-sm:items-center max-sm:fixed max-sm:top-0 max-sm:left-[-100%];
+    }
+}
