@@ -19,7 +19,7 @@ const Threesliders = () => {
             {
                 breakpoint: 1454,
                 settings: {
-                    slidesToShow: 3.5,
+                    slidesToShow: 4,
                     infinite: true,
                 }
             },
