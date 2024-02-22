@@ -52,10 +52,10 @@ export const blockchainSliderList = [
 
 export const threeSlider = [
     {
-        slideTitle: "light"
+        slideTitle: "NexAi, Turn on light"
     },
     {
-        slideTitle: "alarm of 5:00 am"
+        slideTitle: "NexAi, set alarm of 5:00 am"
     },
     {
         slideTitle: "NexAi, measure this table"
@@ -64,7 +64,7 @@ export const threeSlider = [
         slideTitle: "NexAi, Turn on music"
     },
     {
-        slideTitle: "alarm of 5:00 am"
+        slideTitle: "NexAi, set alarm of 5:00 am"
     },
     {
         slideTitle: "NexAi, measure this table"

@@ -4,7 +4,7 @@ import { uniqeFeaturesList } from './common/Helper'
 const UniqeFeatures = () => {
     return (
         <div className='sm:px-3' id='tokens'>
-            <div className='max-w-[1310px] mx-auto px-3 z-[1] border-[2px] border-white rounded-[20px] overflow-hidden h-[810px] bg-center relative bg-[url(./assets/images/webp/Uniqe-bg.webp)] bg-cover'>
+            <div className='max-w-[1340px] min-[1600px]:max-w-[1440px] mx-auto px-3 z-[1] border-[2px] border-white rounded-[20px] overflow-hidden h-[810px] bg-center relative bg-[url(./assets/images/webp/Uniqe-bg.webp)] bg-cover'>
                 <div className="absolute animate-pulse w-[116px] sm:w-[233px] h-[116px] sm:h-[233px] rounded-[50%] bg-[#02CDCF] top-[172px] sm:top-0 lg:top-[103px] right-[-90px] sm:right-[-160px] xl:right-[-140px] blur-[100px] sm:blur-[150px]"></div>
                 <div className="absolute animate-pulse w-[116px] sm:w-[233px] h-[116px] sm:h-[233px] rounded-[50%] bg-[#02CDCF] top-[472px] sm:top-[400px] lg:top-[503px] z-[-1] left-[-90px] sm:left-[-160px] xl:left-[-140px] blur-[100px] sm:blur-[150px]"></div>
                 <div className=' h-full w-full'>

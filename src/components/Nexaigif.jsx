@@ -5,7 +5,7 @@ const Nexaigif = () => {
     return (
         <>
             <div className='px-3 md:mt-[120px] mt-[80px] lg:mt-[160px]'>
-                <div className='border-white  border-[1px] flex items-center justify-center flex-col mx-auto px-3 rounded-[24px] bg-[url(./assets/images/ai_img.gif)] bg-no-repeat bg-100-100 bg-center md:min-h-[600px] lg:min-h-[810px]'>
+                <div className='border-white min-[1600px]:max-w-[1440px] border-[1px] flex items-center justify-center flex-col mx-auto px-3 rounded-[24px] bg-[url(./assets/images/ai_img.gif)] bg-no-repeat bg-100-100 bg-center md:min-h-[600px] lg:min-h-[810px]'>
                     <div className='flex flex-wrap flex-col-reverse md:flex-row -mx-3 min-[1440px]:w-[100%]'>
                         <div className='md:w-1/2 w-full px-3 mb-10 md:mb-0 flex flex-col items-center'>
                             <div className='max-w-[500px]'>
