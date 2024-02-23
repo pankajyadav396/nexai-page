@@ -2,6 +2,7 @@ import React from 'react'
 import Facebook, { Telegram, Twitter } from './common/Icons'
 
 const Footer = () => {
+    const d = new Date().getFullYear();
     return (
         <>
             <div className='bg-[url(./assets/images/webp/footerimg.webp)] bg-100 bg-no-repeat bg-bottom md:min-h-[492px] mt-[100px]'>
@@ -62,7 +63,7 @@ const Footer = () => {
                     </div >
                 </div >
                 <p className='text-[#b6bbbb] py-[20px] mx-auto text-center ff-recharge text-[16px] font-normal leading-normal '>
-                    @Copyright.nexai
+                    @Copyright.nexai <span>{d}</span>
                 </p>
             </div >
         </>

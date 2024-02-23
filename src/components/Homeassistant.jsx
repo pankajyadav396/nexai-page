@@ -13,7 +13,7 @@ const Homeassistant = () => {
                             <img data-aos="zoom-in" src={home} alt="home" className='max-w-[612px] w-full' />
                         </div>
                         <div className='md:w-5/12 w-full px-3 pt-[40px] lg:pt-[70px] flex flex-col items-center justify-center'>
-                            <div className='max-w-[516px]'>
+                            <div className='max-w-[516px] max-md:justify-center max-md:flex max-md:items-center max-md:flex-col max-md:text-center'>
                                 <h2 data-aos="fade-up" className='text-[#02CDCF] font-bold text-[28px] sm:text-[40px] md:text-[30px] lg:text-[40px] mb-4 ff-recharge leading-[50.4px]'>Ai-Powered Home Assistant</h2>
                                 <p data-aos="fade-up" className='text-lightGrey font-normal text-[14px] sm:text-[16px] md:text-[14px] lg:text-[16px] mb-[6px] ff-["poppins"]'>Nexai is an advanced AI-powered home assistant that brings <br className='max-xl:hidden' /> the future to your fingertips. With its ability to engage in natural, fluent conversations in over 15 languages,</p>
                                 <p data-aos="fade-up" className='text-lightGrey font-normal text-[14px] sm:text-[16px] md:text-[14px] lg:text-[16px] mb-[6px] ff-["poppins"]'>Nexai offers an incredibly futuristic experience. It can take the initiative to ask about your day, schedule meetings, provide <br className=' max-xl:hidden' /> timely reminders</p>
