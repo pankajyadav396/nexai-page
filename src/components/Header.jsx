@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 const Header = () => {
   return (
     <>
-      <div id='home' className="mt-4  bg-[url(./assets/images/webp/heroimg.webp)] min-h-screen min-[1200px]:h-[810px] w-full bg-center bg-no-repeat bg-cover min-[1400px]:bg-contain relative flex flex-col">
+      <div id='home' className="mt-4 bg-[url(./assets/images/webp/heroimg.webp)] min-h-screen min-[1200px]:h-[810px] w-full bg-center bg-no-repeat bg-cover min-[1400px]:bg-contain relative flex flex-col">
         <Navbar />
         <div className="grow max-w-[1164px] w-full flex flex-col justify-center min-[1200px]:justify-start mx-auto px-3 min-[1200px]:mt-[144px]">
           <div className="max-w-[577px] w-full">
