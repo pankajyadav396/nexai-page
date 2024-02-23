@@ -13,8 +13,8 @@ const Handai = () => {
                         <img src={hand} alt="img00" className='w-full mt-[-40px] relative z-[-1]' />
                     </div>
                     <div data-aos="fade-up" className='md:w-1/2 w-full pl-4 overflow-y-scroll overflow-x-hidden h-[450px]'>
-                        <div className=' flex flex-col items-center justify-center w-full'>
-                            <div className="relative z-10 mt-[63px] max-w-[570px]">
+                        <div className=' flex flex-col items-center justify-center w-full md:mt-[60px]'>
+                            <div className="relative z-10 max-w-[570px]">
                                 <img
                                     className=" absolute mt-[20px] min-[522px]:left-[2px] h-[100%] max-w-[8px] top-[-10px] md:left-[10px] left-[10px] z-[-1]"
                                     src={lineimg}

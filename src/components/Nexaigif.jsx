@@ -11,7 +11,7 @@ const Nexaigif = () => {
                             <div className='max-w-[500px]'>
                                 <h2 data-aos="fade-up" className='text-[#02CDCF] max-md:text-center text-nowrap md:max-w-[480px] font-bold text-[28px] sm:text-[40px] md:text-[30px] lg:text-[40px] mb-4 ff-recharge leading-[50.4px]'>What is NexAi?</h2>
                                 <p data-aos="fade-up" className='text-lightGrey max-md:text-center md:max-w-[480px] font-normal text-[14px] sm:text-[16px] md:text-[14px] lg:text-[16px] mb-[6px] ff-["poppins"]'>Beyond its convenience, Nexai revolutionizes the way you interact with your home environment. It enhances productivity, efficiency, and overall well-being. From managing your schedules to transforming the way you experience smart living, Nexai opens up a world of possibilities.</p>
-                                <p data-aos="fade-up" className='hidden sm:block text-lightGrey max-md:text-center md:max-w-[480px] font-normal text-[14px] sm:text-[16px] md:text-[14px] lg:text-[16px] ff-["poppins"]'>Nexai's software can be installed on all your smart devices, including smartphones, computers, smart TVs, and kitchen appliances. It acts as a centralized control hub, allowing you to manage and interact with all your devices seamlessly. Whether it's adjusting the temperature, turning on appliances, or even accessing files on your home computer from anywhere, Nexai empowers you with effortless control.</p>
+                                <p data-aos="fade-up" className='max-[404px]:hidden sm:block text-lightGrey max-md:text-center md:max-w-[480px] font-normal text-[14px] sm:text-[16px] md:text-[14px] lg:text-[16px] ff-["poppins"]'>Nexai's software can be installed on all your smart devices, including smartphones, computers, smart TVs, and kitchen appliances. It acts as a centralized control hub, allowing you to manage and interact with all your devices seamlessly. Whether it's adjusting the temperature, turning on appliances, or even accessing files on your home computer from anywhere, Nexai empowers you with effortless control.</p>
                                 <div data-aos="fade-up" className=' max-md:flex items-center justify-center'>
                                     <Commonbtn className="hover:shadow-[inset_200px_0_0_0_black] mt-6 sm:mt-10"
                                         text="Learn More"
@@ -19,8 +19,8 @@ const Nexaigif = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="fade-up" className='w-full md:w-1/2  px-3 flex items-center justify-center'>
-                            <img src={ai} alt="image" className=' mix-blend-lighten' />
+                        <div className='w-full md:w-1/2  px-3 flex items-center justify-center'>
+                            <img data-aos="zoom-in" src={ai} alt="image" className=' mix-blend-lighten max-md:max-w-[400px] max-md:w-full' />
                         </div>
                     </div>
                 </div>
