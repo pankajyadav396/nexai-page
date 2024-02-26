@@ -15,6 +15,7 @@ const Blockchain = () => {
         slidesToShow: 4.5,
         slidesToScroll: 1,
         arrows: false,
+        paauseOnHover: false,
         responsive: [
             {
                 breakpoint: 1654,

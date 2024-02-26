@@ -8,8 +8,8 @@ export const uniqeFeaturesList = [
     },
     {
         featureIcon: <Timer_2 />,
-        title: "Remote Access and File Management",
-        discription: "Imagine you're at work, and you realize you forgot to bring an important file stored on your desktop computer at home. No worries! Simply open the Nexai app on your phone, initiate a call with Nexai, and request access to your computer."
+        title: "Real-time Home Monitoring",
+        discription: "While you're out with your family, you may wonder if you remembered to turn off the stove. Thanks to Nexai, this is no longer a concern. Using the Nexai app, you can initiate a video call with Nexai and activate the mini drone stationed in your home. "
     },
     {
         featureIcon: <Chatbox />,
@@ -18,8 +18,8 @@ export const uniqeFeaturesList = [
     },
     {
         featureIcon: <Lines />,
-        title: "Remote Access and File Management",
-        discription: "Imagine you're at work, and you realize you forgot to bring an important file stored on your desktop computer at home. No worries! Simply open the Nexai app on your phone, initiate a call with Nexai, and request access to your computer."
+        title: "Real-time Home Monitoring",
+        discription: "While you're out with your family, you may wonder if you remembered to turn off the stove. Thanks to Nexai, this is no longer a concern. Using the Nexai app, you can initiate a video call with Nexai and activate the mini drone stationed in your home. "
     },
 ]
 

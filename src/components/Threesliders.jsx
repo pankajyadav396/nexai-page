@@ -15,6 +15,7 @@ const Threesliders = () => {
         slidesToShow: 4.2,
         slidesToScroll: 1,
         arrows: false,
+        pauseOnHover: false,
         responsive: [
             {
                 breakpoint: 1454,
