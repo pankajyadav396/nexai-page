@@ -17,7 +17,7 @@ const Header = () => {
               Etiam viverra nec libero a. A id id tempus molestie sed. Fringilla
               odio.
             </p>
-            <div data-aos="zoom-in" data-aos-delay="3000" className='block'>
+            <div className='block'>
               <Commonbtn className="hover:shadow-[inset_200px_0_0_0_black]"
                 text="Know More"
               />
