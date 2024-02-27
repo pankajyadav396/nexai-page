@@ -25,22 +25,22 @@ const Footer = () => {
                                     Quick Links
                                 </l1>
                                 <li>
-                                    <a id='home' className='text-[#b6bbbb] ff-recharge max-sm:text-[14px] text-[16px] font-normal leading-normal hover:after:w-[100%] after:mx-auto after:right-[0px] after:items-center after:w-0 after:absolute after:bg-[#B6BBBB] after:h-[2px] cursor-pointer relative after:left-[0] after:bottom-[-2px] after:rounded-[15px] after:transition-all after:duration-300 after:ease-linear'>
+                                    <a href='#home' className='text-[#b6bbbb] ff-recharge max-sm:text-[14px] text-[16px] font-normal leading-normal hover:after:w-[100%] after:mx-auto after:right-[0px] after:items-center after:w-0 after:absolute after:bg-[#B6BBBB] after:h-[2px] cursor-pointer relative after:left-[0] after:bottom-[-2px] after:rounded-[15px] after:transition-all after:duration-300 after:ease-linear'>
                                         Home
                                     </a></li>
-                                <li> <a id='features' className='text-[#b6bbbb] ff-recharge max-sm:text-[14px] text-[16px] font-normal leading-normal hover:after:w-[100%] after:mx-auto after:right-[0px] after:items-center after:w-0 after:absolute after:bg-[#B6BBBB] after:h-[2px] cursor-pointer relative after:left-[0] after:bottom-[-2px] after:rounded-[15px] after:transition-all after:duration-300 after:ease-linear'>
+                                <li> <a href='#features' className='text-[#b6bbbb] ff-recharge max-sm:text-[14px] text-[16px] font-normal leading-normal hover:after:w-[100%] after:mx-auto after:right-[0px] after:items-center after:w-0 after:absolute after:bg-[#B6BBBB] after:h-[2px] cursor-pointer relative after:left-[0] after:bottom-[-2px] after:rounded-[15px] after:transition-all after:duration-300 after:ease-linear'>
                                     Features
                                 </a></li>
-                                <li> <a id='market' className='text-[#b6bbbb] ff-recharge max-sm:text-[14px] text-[16px] font-normal leading-normal hover:after:w-[100%] after:mx-auto after:right-[0px] after:items-center after:w-0 after:absolute after:bg-[#B6BBBB] after:h-[2px] cursor-pointer relative after:left-[0] after:bottom-[-2px] after:rounded-[15px] after:transition-all after:duration-300 after:ease-linear'>
+                                <li> <a href='#market' className='text-[#b6bbbb] ff-recharge max-sm:text-[14px] text-[16px] font-normal leading-normal hover:after:w-[100%] after:mx-auto after:right-[0px] after:items-center after:w-0 after:absolute after:bg-[#B6BBBB] after:h-[2px] cursor-pointer relative after:left-[0] after:bottom-[-2px] after:rounded-[15px] after:transition-all after:duration-300 after:ease-linear'>
                                     MarketPlace
                                 </a></li>
-                                <li> <a id='tokens' className='text-[#b6bbbb] ff-recharge max-sm:text-[14px] text-[16px] font-normal leading-normal hover:after:w-[100%] after:mx-auto after:right-[0px] after:items-center after:w-0 after:absolute after:bg-[#B6BBBB] after:h-[2px] cursor-pointer relative after:left-[0] after:bottom-[-2px] after:rounded-[15px] after:transition-all after:duration-300 after:ease-linear'>
+                                <li> <a href='#tokens' className='text-[#b6bbbb] ff-recharge max-sm:text-[14px] text-[16px] font-normal leading-normal hover:after:w-[100%] after:mx-auto after:right-[0px] after:items-center after:w-0 after:absolute after:bg-[#B6BBBB] after:h-[2px] cursor-pointer relative after:left-[0] after:bottom-[-2px] after:rounded-[15px] after:transition-all after:duration-300 after:ease-linear'>
                                     Tokens
                                 </a></li>
-                                <li> <a id='nexchat' className='text-[#b6bbbb] ff-recharge max-sm:text-[14px] text-[16px] font-normal leading-normal hover:after:w-[100%] after:mx-auto after:right-[0px] after:items-center after:w-0 after:absolute after:bg-[#B6BBBB] after:h-[2px] cursor-pointer relative after:left-[0] after:bottom-[-2px] after:rounded-[15px] after:transition-all after:duration-300 after:ease-linear'>
+                                <li> <a href='#nexchat' className='text-[#b6bbbb] ff-recharge max-sm:text-[14px] text-[16px] font-normal leading-normal hover:after:w-[100%] after:mx-auto after:right-[0px] after:items-center after:w-0 after:absolute after:bg-[#B6BBBB] after:h-[2px] cursor-pointer relative after:left-[0] after:bottom-[-2px] after:rounded-[15px] after:transition-all after:duration-300 after:ease-linear'>
                                     NexChat
                                 </a></li>
-                                <li><a id='about' className='text-[#b6bbbb] ff-recharge max-sm:text-[14px] text-[16px] font-normal leading-normal hover:after:w-[100%] after:mx-auto after:right-[0px] after:items-center after:w-0 after:absolute after:bg-[#B6BBBB] after:h-[2px] cursor-pointer relative after:left-[0] after:bottom-[-2px] after:rounded-[15px] after:transition-all after:duration-300 after:ease-linear'>
+                                <li><a href='#about' className='text-[#b6bbbb] ff-recharge max-sm:text-[14px] text-[16px] font-normal leading-normal hover:after:w-[100%] after:mx-auto after:right-[0px] after:items-center after:w-0 after:absolute after:bg-[#B6BBBB] after:h-[2px] cursor-pointer relative after:left-[0] after:bottom-[-2px] after:rounded-[15px] after:transition-all after:duration-300 after:ease-linear'>
                                     About
                                 </a ></li>
                             </ul >
