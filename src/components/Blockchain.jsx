@@ -12,7 +12,7 @@ const Blockchain = () => {
         autoplay: true,
         autoplaySpeed: 0,
         cssEase: 'Linear',
-        slidesToShow: 4.5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,
         paauseOnHover: false,
@@ -20,7 +20,7 @@ const Blockchain = () => {
             {
                 breakpoint: 1654,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3.8,
                     infinite: true,
                 }
             },
@@ -71,7 +71,7 @@ const Blockchain = () => {
     return (
         <>
             <div className='relative'>
-                <h2 data-aos="fade-up" className='text-[#02CDCF] mt-[70px] md:mt-[100px] lg:mt-[160px] font-bold text-[28px] sm:text-[40px] text-center md:text-[30px] lg:text-[40px] mb-4 ff-recharge leading-[50.4px]'>Blockchain & AI technology</h2>
+                <h2 data-aos="fade-up" className='text-[#02CDCF] mt-[70px] md:mt-[100px] lg:mt-[160px] font-bold text-[32px] sm:text-[40px] text-center md:text-[30px] lg:text-[40px] mb-4 ff-recharge leading-[50.4px]'>Blockchain & AI technology</h2>
                 <p data-aos="fade-up" className='text-lightGrey font-normal text-[14px] max-w-[1057px] mx-auto text-center sm:text-[16px] md:text-[14px] lg:text-[16px] mb-[6px] font-[poppins]'>Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home.Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
                 <p data-aos="fade-up" className='text-[18px] sm:text-[20px] ff-recharge text-white leading-[32px] mt-[50px] md:mt-[96px] max-w-[684px] text-center mx-auto'>By building the software on blockchain, Nexai provides the following advantages</p>
                 <div className="absolute w-[116px] z-[-1] sm:w-[233px] h-[116px] sm:h-[233px] rounded-[50%] bg-[#02CDCF] top-[172px] sm:top-0 lg:top-[123px] right-[-90px] sm:right-[-160px] xl:right-[-140px] blur-[100px] sm:blur-[150px]"></div>

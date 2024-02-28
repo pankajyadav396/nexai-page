@@ -19,7 +19,7 @@ const Navbar = () => {
     <>
       <div className='px-4 mt-4'>
         <nav
-          className="max-w-[1156px] ml-auto lg:py-[15.8px] max-[1100px]:mt-10 bg-transparent flex items-center justify-between lg:justify-center mx-auto">
+          className="max-w-[1156px] ml-auto lg:py-[15.8px] h-[110px] bg-transparent flex items-center justify-between lg:justify-center mx-auto">
           <ul
             className={`${nav ? "left-0" : "left-[-100%]"
               } flex items-center gap-[28px] mobileView duration-300`}>

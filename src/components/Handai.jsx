@@ -28,7 +28,7 @@ const Handai = () => {
                                                 <p className="text-white text-[19px] sm:text-[24px] md:text-[19px] lg:text-[24px] font-bold ff-recharge  max-w-[568px]">
                                                     {obj.roadmapTitle}
                                                 </p>
-                                                <p className='text-[#bbbbbb] text-balance max-w-[502px] ff-["poppins"] mt-[16px] text-[14px] sm:text-[16px] md:text-[14px] lg:text-[16px] font-normal'>{obj.roadmapDescription}</p>
+                                                <p className='text-[#bbbbbb]  max-w-[502px] font-["poppins"] mt-[7px] sm:mt-[16px] text-[14px] sm:text-[16px] md:text-[14px] lg:text-[16px] font-normal'>{obj.roadmapDescription}</p>
                                             </div>
                                         </div>
                                     )

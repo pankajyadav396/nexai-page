@@ -45,6 +45,10 @@
     border: 1px solid white !important;
 }
 
+.bg-headerbg {
+    background-image: url('./assets/images/webp/heroimg.webp');
+}
+
 @keyframes spin89345 {
     0% {
         transform: rotate(0deg);
