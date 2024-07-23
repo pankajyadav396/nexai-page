@@ -7,7 +7,7 @@ const Handai = () => {
     return (
         <>
             <div className='max-w-[1140px] px-3 mx-auto lg:mt-[150px] md:mt-[110px] mt-[80px]'>
-                <h2 data-aos="zoom-in" className='text-[#02CDCF] relative z-10 font-bold text-[32px] sm:text-[40px] text-center mb-[40px] ff-recharge leading-[50.4px]'>NexAI Token & utility</h2>
+                <h2 data-aos="zoom-in" className='text-[#02CDCF] relative z-10 font-bold text-[32px] sm:text-[40px] text-center mb-[40px] ff-recharge sm:leading-[50.4px] leading-[45px]'>NexAI Token & utility</h2>
                 <div className='flex -mx-3 flex-wrap flex-col md:flex-row'>
                     <div data-aos="fade-up" className='w-full md:w-1/2 px-3 relative z-[1] items-center justify-center flex'>
                         <img src={hand} alt="img00" className='w-full mt-[-40px] relative z-[-1]' />

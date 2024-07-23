@@ -15,7 +15,7 @@ function Header() {
       >
         {/* small screen navpage */}
         <ul
-          className={`flex gap-5 w-full h-full fixed justify-center items-center flex-col bg-[#040404] left-[-100%] sm:hidden z-[7] duration-300 ${open == false ? "" : "left-[0%]"
+          className={`flex gap-5 w-[340px] h-full fixed justify-center items-center flex-col bg-[#040404] left-[-350px] sm:hidden z-[7] duration-300 ${open == false ? "" : "left-[0]"
             }`}
         >
           <li>
@@ -130,11 +130,11 @@ function Header() {
 
           <Commonbtn
             click={() => setOpen(false)}
-            className="absolute left-2 sm:hidden hover:shadow-[inset_154px_0_0_0_black] shrink-0"
+            className="absolute right-2 sm:hidden hover:shadow-[inset_154px_0_0_0_black] shrink-0"
             text="Sign Up"
           />
           <div
-            className={`flex w-[30px] min-[400px]:w-[35px] h-[25px] duration-300 flex-col sm:hidden items-center justify-between cursor-pointer relative z-10`}
+            className={`flex w-[30px] left-4 min-[400px]:w-[35px] h-[25px] duration-300 flex-col sm:hidden items-center justify-between cursor-pointer absolute  z-10`}
             onClick={() => setOpen(!open)}
           >
             <span
@@ -142,11 +142,11 @@ function Header() {
                 }`}
             ></span>
             <span
-              className={`w-full h-[5px] duration-300 bg-[#02CDCF] rounded ${open == false ? "" : "rotate-[135deg] translate-y-[-12px]"
+              className={`w-full h-[5px] duration-300 bg-[#02CDCF] rounded ${open == false ? "" : "hidden "
                 }`}
             ></span>
             <span
-              className={`w-full h-[5px] duration-300 bg-[#02CDCF] rounded ${open == false ? "" : "hidden"
+              className={`w-full h-[5px] duration-300 bg-[#02CDCF] rounded ${open == false ? "" : "rotate-[135deg] translate-y-[-12px]"
                 }`}
             ></span>
           </div>
@@ -160,11 +160,11 @@ function Header() {
             data-aos-delay="2000"
             data-aos-duration="1000"
           >
-            <p className="f-recharge font-bold text-[35px] sm:text-[60px] sm:leading-[75.6px] text-white text-center sm:text-start">
+            <p className="ff-recharge font-bold text-[35px] sm:text-[60px] sm:leading-[75.6px] text-white text-center sm:text-start">
               <span className="text-[#02CDCF]">Nexai</span> is an advanced
               AI-powered home assistant
             </p>
-            <p className="mt-4 mb-6 md:mb-[51px] font-poppins font-normal text-base leading-[25.6px] text-[rgba(255,255,255,0.7)] text-center sm:text-start">
+            <p className="mt-4 mb-6 md:mb-[51px] font-['poppins'] font-normal text-base leading-[25.6px] text-[rgba(255,255,255,0.7)] text-center sm:text-start">
               Etiam viverra nec libero a. A id id tempus molestie sed. Fringilla
               odio.
             </p>
